@@ -43,7 +43,7 @@ const Login = () => {
           <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-primary shadow-lg">
             <Wallet className="h-8 w-8 text-primary-foreground" />
           </div>
-          <h1 className="text-2xl font-bold text-foreground">GestorMEI</h1>
+          <h1 className="text-2xl font-bold text-foreground">Fynora</h1>
           <p className="text-muted-foreground">Sistema de Gestão para MEIs</p>
         </div>
 
@@ -113,7 +113,7 @@ const Login = () => {
 
             <div className="mt-6 rounded-lg bg-muted p-4">
               <p className="text-center text-sm text-muted-foreground">
-                <strong>Demo:</strong> admin@gestormei.com / 123456
+                <strong>Demo:</strong> admin@Fynora.com / 123456
               </p>
             </div>
           </CardContent>

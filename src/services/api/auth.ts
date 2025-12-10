@@ -15,8 +15,8 @@ export interface AuthResponse {
 // Mock user for development
 const mockUser: User = {
   id: '1',
-  email: 'admin@gestormei.com',
-  name: 'João Silva',
+  email: 'admin@Fynora.com',
+  name: 'Paulo Maia',
   company: 'MEI Solutions',
 };
 
@@ -28,7 +28,7 @@ export const authApi = {
     // Mock implementation for development
     await delay(1000);
     
-    if (credentials.email === 'admin@gestormei.com' && credentials.password === '123456') {
+    if (credentials.email === 'admin@Fynora.com' && credentials.password === '123456') {
       const mockToken = `mock-jwt-token-${Date.now()}`;
       const mockRefresh = `mock-refresh-token-${Date.now()}`;
       

@@ -36,7 +36,7 @@ const Sidebar = () => {
           </div>
           {!collapsed && (
             <span className="text-lg font-semibold text-sidebar-foreground">
-              GestorMEI
+              Fynora
             </span>
           )}
         </div>
@@ -82,7 +82,7 @@ const Sidebar = () => {
       <div className="border-t border-sidebar-border p-4">
         {!collapsed && (
           <p className="text-xs text-sidebar-foreground/50">
-            © 2024 GestorMEI
+            © 2025 Fynora
           </p>
         )}
       </div>

@@ -12,8 +12,8 @@ interface AuthStore extends AuthState {
 // Mock user for demonstration
 const mockUser: User = {
   id: '1',
-  email: 'admin@gestormei.com',
-  name: 'João Silva',
+  email: 'admin@Fynora.com',
+  name: 'Paulo Maia',
   company: 'MEI Solutions',
 };
 
@@ -32,7 +32,7 @@ export const useAuthStore = create<AuthStore>()(
         await new Promise((resolve) => setTimeout(resolve, 1000));
         
         // Mock validation
-        if (email === 'admin@gestormei.com' && password === '123456') {
+        if (email === 'admin@Fynora.com' && password === '123456') {
           const mockToken = 'mock-jwt-token-' + Date.now();
           set({
             user: mockUser,
